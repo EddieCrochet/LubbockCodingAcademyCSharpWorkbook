@@ -6,10 +6,11 @@ namespace W1D1Pre
     {
         static void Main(string[] args)
         {
-            string myString = "100";
             int myInt = 30;
+            string myString = "100";
 
             int myResult = myInt + int.Parse(myString);
+            Console.WriteLine(myString);
             Console.WriteLine(myResult);
         }
     }
